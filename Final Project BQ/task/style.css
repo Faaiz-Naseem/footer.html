@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+   
+}
+.icon{
+    height: 90px;
+    width: 90px;
+    border: 5px solid black ;
+    border-radius: 50%;
+    margin: 60px;
+    text-align: center;
+    
+}
+#icon{
+    margin: 20px;
+}
+.parent{
+    margin: 50px;
+}
+.numbers{
+    padding-top: 15px;
+}
+.name{
+    
+}
+@media only screen and (max-width: 375px){
+    .container{
+        height: 800px;
+        width: 660px;
+      
+     }
+     .parent{
+       padding-left: 20px;
+     }
+}
